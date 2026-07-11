@@ -20,6 +20,8 @@ I'm a final-year B.Tech CSE student at Delhi Technological University (DTU) with
   * Experience & Education (Timeline)
   * Projects (Featured AI/ML Work)
   * Achievements (Competitive Programming & Kaggle)
+  * Certifications (NPTEL, DeepLearning.AI, Micro1)
+  * Resume Download
   * Contact (Functional form structure)
 
 ## 📂 Project Structure
@@ -27,6 +29,17 @@ I'm a final-year B.Tech CSE student at Delhi Technological University (DTU) with
 * `style.css` - Custom styling, responsive breakpoints, and animations.
 * `script.js` - Dynamic interactions, intersection observers, and form validation.
 * `avatar.png` - Profile picture.
+* `Sanjeev_Resume_v9.pdf` - Downloadable resume linked from the portfolio.
+* `certificates/` - Certificate PDFs linked from the certifications section.
+
+## Certificate File Names
+Place certificate PDFs in `certificates/` using these names:
+* `nptel-iot.pdf`
+* `nptel-python.pdf`
+* `nptel-forests.pdf`
+* `coursera-ml.pdf`
+* `coursera-deep-learning.pdf`
+* `micro1-ai-training.pdf`
 
 ## 🚀 Running Locally
 To view the portfolio locally:
