@@ -143,10 +143,9 @@ const sectionObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             navLinks.forEach(link => {
-                link.classList.toggle(
-                    'active',
-                    link.getAttribute('href') === '#' + entry.target.id
-                );
+                const isActive = link.getAttribute('href') === '#' + entry.target.id;
+                link.classList.toggle('active', isActive);
+                link.setAttribute('aria-current', isActive ? 'page' : 'false');
             });
         }
     });
