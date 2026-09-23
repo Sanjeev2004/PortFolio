@@ -28,7 +28,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
           <a href="https://www.linkedin.com/in/sanjeev-kumar-7896b71b1/" target="_blank" rel="noopener" className="flex items-center gap-3 p-3 bg-blue-200 border-2 border-black rounded-xl hover:translate-x-1 hover:shadow-neo-sm transition-all">
             <FaLinkedin className="text-xl" /> LinkedIn
           </a>
-          <a href="https://leetcode.com/u/SanjeevKumar2004/" target="_blank" rel="noopener" className="flex items-center gap-3 p-3 bg-orange-200 border-2 border-black rounded-xl hover:translate-x-1 hover:shadow-neo-sm transition-all">
+          <a href="https://leetcode.com/u/sanjeevsamsan2004/" target="_blank" rel="noopener" className="flex items-center gap-3 p-3 bg-orange-200 border-2 border-black rounded-xl hover:translate-x-1 hover:shadow-neo-sm transition-all">
             <FaCode className="text-xl" /> LeetCode
           </a>
           <a href="tel:+918076539909" className="flex items-center gap-3 p-3 bg-custom-green border-2 border-black rounded-xl hover:translate-x-1 hover:shadow-neo-sm transition-all">

@@ -31,7 +31,7 @@ const Coding: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                 <div className="w-full flex justify-center hover:-translate-y-1 transition-transform">
                   <img src="https://leetcard.jacoblin.cool/SanjeevKumar2004?theme=chartreuse&font=Share%20Tech%20Mono&ext=heatmap" alt="LeetCode Stats" className="w-full border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rounded-xl bg-white" />
                 </div>
-                <a href="https://leetcode.com/u/SanjeevKumar2004/" target="_blank" rel="noopener" className="font-mono font-bold bg-custom-blue text-black px-5 py-3 border-2 border-black w-fit shadow-[4px_4px_0_rgba(0,0,0,1)] hover:-translate-y-1 hover:shadow-none transition-all">
+                <a href="https://leetcode.com/u/sanjeevsamsan2004/" target="_blank" rel="noopener" className="font-mono font-bold bg-custom-blue text-black px-5 py-3 border-2 border-black w-fit shadow-[4px_4px_0_rgba(0,0,0,1)] hover:-translate-y-1 hover:shadow-none transition-all">
                   View LeetCode profile
                 </a>
               </div>

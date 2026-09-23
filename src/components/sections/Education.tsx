@@ -203,21 +203,21 @@ const Education = () => {
       title: "B.Tech - Computer Science & Engineering",
       place: "Delhi Technological University, New Delhi",
       color: "bg-purple-100",
-      details: "Minor in Machine Learning"
+      details: "Minor in Machine Learning | CGPA: 7.57 / 10"
     },
     {
       year: "2021-2022",
       title: "Senior Secondary (XII)",
       place: "CBSE Board",
       color: "bg-blue-100",
-      details: undefined
+      details: "Percentage: 90.8%"
     },
     {
       year: "2019-2020",
       title: "Secondary (X)",
       place: "CBSE Board",
       color: "bg-pink-100",
-      details: undefined
+      details: "Percentage: 93.2%"
     }
   ];
 

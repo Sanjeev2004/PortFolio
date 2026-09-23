@@ -9,7 +9,6 @@ const Hero = () => {
   return (
     <section className="pt-4 pb-10 px-4 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 items-start justify-center">
       <div className="w-full md:w-1/3 bg-white border-2 border-b-4 border-r-4 border-black rounded-3xl p-6 shadow-neo flex flex-col items-center text-center relative overflow-hidden">
-        <div className="absolute top-4 left-1/2 -translate-x-1/2 bg-gray-200/50 w-20 h-6 rotate-[-5deg] border border-gray-400"></div>
         <div className="w-32 h-32 bg-custom-pink rounded-full border-4 border-black mb-4 flex items-center justify-center text-4xl overflow-hidden">
           <img src="/avatar1.png" alt="Sanjeev Kumar" className="w-full h-full object-cover object-[center_30%] scale-[1.4]" />
         </div>
@@ -34,7 +33,7 @@ const Hero = () => {
           <a href="mailto:sanjeevsamsan2004@gmail.com" aria-label="Email" className="hover:scale-110 transition-transform text-red-500"><FaEnvelope /></a>
           <a href="https://github.com/Sanjeev2004" target="_blank" rel="noopener" aria-label="GitHub" className="hover:scale-110 transition-transform"><FaGithub /></a>
           <a href="https://www.linkedin.com/in/sanjeev-kumar-7896b71b1/" target="_blank" rel="noopener" aria-label="LinkedIn" className="hover:scale-110 transition-transform text-blue-700"><FaLinkedin /></a>
-          <a href="https://leetcode.com/u/SanjeevKumar2004/" target="_blank" rel="noopener" aria-label="LeetCode" className="hover:scale-110 transition-transform text-orange-600"><FaCode /></a>
+          <a href="https://leetcode.com/u/sanjeevsamsan2004/" target="_blank" rel="noopener" aria-label="LeetCode" className="hover:scale-110 transition-transform text-orange-600"><FaCode /></a>
         </div>
       </div>
 
