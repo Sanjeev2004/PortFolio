@@ -27,30 +27,6 @@ const BeyondCode: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
         {isOpen && (
           <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.2, ease: 'linear' }} className="overflow-hidden">
             <div className="px-6 md:px-10 pb-10">
-              <article className="bg-white border-4 border-black rounded-3xl overflow-hidden shadow-neo">
-                <div className="p-6 md:p-8">
-                  <div className="flex flex-wrap items-center gap-3 mb-5">
-                    <span className="bg-custom-yellow px-4 py-2 border-2 border-black rounded-full font-mono font-bold text-sm">EDUCATION</span>
-                    <span className="bg-custom-green px-4 py-2 border-2 border-black rounded-full font-mono font-bold text-sm">2022 - 2026</span>
-                  </div>
-                  <h3 className="text-3xl font-shrikhand mb-2">B.Tech Computer Science & Engineering</h3>
-                  <p className="font-bold text-lg mb-4">Delhi Technological University · Minor in Machine Learning</p>
-                  <p className="font-medium text-lg leading-relaxed mb-6">
-                    Building a strong foundation across algorithms, statistics, machine learning, deep learning, databases, and software engineering. Active in competitive programming and AI/ML research.
-                  </p>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="flex items-start gap-3 bg-custom-blue border-2 border-black rounded-xl p-4">
-                      <span className="text-2xl">📚</span>
-                      <p className="font-bold">Core courses in DSA, ML, DL, NLP, DBMS, OS, and Computer Networks.</p>
-                    </div>
-                    <div className="flex items-start gap-3 bg-custom-pink border-2 border-black rounded-xl p-4">
-                      <span className="text-2xl">🏆</span>
-                      <p className="font-bold">LeetCode 1716 · Codeforces 1517 · 800+ problems solved.</p>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
               <article className="bg-white border-4 border-black rounded-3xl overflow-hidden shadow-neo mt-10">
                 <div className="p-6 md:p-8">
                   <div className="flex flex-wrap items-center gap-3 mb-5">

@@ -6,6 +6,7 @@ import Projects from './components/sections/Projects';
 import Experience from './components/sections/Experience';
 import Approach from './components/sections/Approach';
 import Evaluation from './components/sections/Evaluation';
+import Education from './components/sections/Education';
 import ExtrasAccordion from './components/sections/ExtrasAccordion';
 import Footer from './components/layout/Footer';
 import CustomCursor from './components/ui/CustomCursor';
@@ -44,6 +45,7 @@ function App() {
         <Projects />
         <Approach />
         <Evaluation />
+        <Education />
         <ExtrasAccordion />
         <Marquee />
       </main>

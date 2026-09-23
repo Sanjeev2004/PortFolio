@@ -27,6 +27,7 @@ const Taskbar = () => {
     { name: 'PROJECTS', id: 'projects' },
     { name: 'SKILLS', id: 'skills' },
     { name: 'APPROACH', id: 'approach' },
+    { name: 'EDUCATION', id: 'education' },
   ];
 
   const scrollToSection = (id: string) => {
